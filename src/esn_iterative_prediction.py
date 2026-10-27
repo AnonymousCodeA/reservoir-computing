@@ -1,5 +1,5 @@
 """
-Level 3 - Iterative (closed-loop) prediction of Lorenz-63 and valid time t_valid.
+ Iterative (closed-loop) prediction of Lorenz-63 and valid time t_valid.
 
 Notation follows Fleddermann, Herzog & Parlitz, Chaos 35, 053147 (2025):
   N, ε, ρ, ν, β, α, Δt            classical hyperparameters (Table II)
