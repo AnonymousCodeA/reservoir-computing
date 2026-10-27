@@ -27,7 +27,7 @@ so M v in the paper is written v @ M.T.
 import numpy as np
 import time
 
-print("Level 4 ESN Pipeline: partial state (u^(y) only) with delayed values (Fig. 5b)")
+print("ESN: partial state (u^(y) only) with delayed values (Fig. 5b)")
 
 # ------------------------------------------------------------------
 # 1. Hyperparameters (Table II)
@@ -249,7 +249,7 @@ for N_I in N_I_values:
 # ------------------------------------------------------------------
 t_classical, std_classical = best[(0, 0)][0], best[(0, 0)][1]
 print("--------------------------------------------------")
-print("LEVEL 4 RESULTS SUMMARY (partial state: u^(y) only)")
+print(" RESULTS SUMMARY (partial state: u^(y) only)")
 print(f"Classical reservoir (N_I = N_R = 0): t_valid = {t_classical:.2f} +/- {std_classical:.2f} Lyapunov times")
 print("Deviation of mean t_valid from classical reservoir [%]:")
 print("N_I \\ N_R" + "".join(f"{N_R:>9d}" for N_R in N_R_values))
