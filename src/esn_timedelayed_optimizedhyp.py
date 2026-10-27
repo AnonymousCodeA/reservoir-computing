@@ -27,7 +27,7 @@ import json
 import time
 from scipy.optimize import minimize
 
-print("Level 5 ESN Pipeline: hyperparameter optimisation (grid search + Nelder-Mead)")
+print("ESN: hyperparameter optimisation (grid search + Nelder-Mead)")
 
 # ------------------------------------------------------------------
 # 1. Settings
@@ -370,7 +370,7 @@ for (N_I, N_R), (_, β, i_IN, i_R) in stage3.items():
 t_cl, s_cl = test3[(0, 0)]
 
 print("--------------------------------------------------")
-print(f"LEVEL 5 RESULTS SUMMARY ({knowledge} state, N = {N}, M = {M}, K_test = {K_test})")
+print(f"RESULTS SUMMARY ({knowledge} state, N = {N}, M = {M}, K_test = {K_test})")
 print(f"Classical, grid search only : t_valid = {t_grid:.2f} +/- {s_grid:.2f}   ({hp_text(best1[2])}, β={best1[1]:g})")
 print(f"Classical, grid + Nelder-Mead: t_valid = {t_cl:.2f} +/- {s_cl:.2f}   ({hp_text(hp_classical)}, β={β_classical:g})")
 print("Deviation of mean t_valid from the optimised classical reservoir [%] (test set):")
