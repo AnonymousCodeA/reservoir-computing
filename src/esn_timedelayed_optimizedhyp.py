@@ -17,7 +17,7 @@ Difference from the paper: the paper chooses and reports on the same evaluation
 trajectories. Here the choice uses K_val validation trajectories and the reported
 numbers use K_test test trajectories, which were not used for any choice.
 
-Notation as in the paper (see Levels 2-4). Code convention: rows are time instances
+Notation as in the paper. Code convention: rows are time instances
 or trajectories, so M v in the paper is written v @ M.T. Every array has the shape
 (..., M, K, ·): M reservoirs and K trajectories are computed in one matrix product.
 """
