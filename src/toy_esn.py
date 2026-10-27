@@ -1,5 +1,5 @@
 """
-Level 1 - Classical echo state network (ESN), prediction of a sine wave (toy problem).
+ Classical echo state network (ESN), prediction of a sine wave (toy problem).
 
 Notation follows Fleddermann, Herzog & Parlitz, Chaos 35, 053147 (2025), Sec. II A-C
 and Table II:
