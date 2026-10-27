@@ -1,5 +1,5 @@
 """
-Level 4 - Partial state knowledge (u^(y) only) with delayed input and reservoir values.
+Partial state knowledge (u^(y) only) with delayed input and reservoir values.
 
 Notation follows Fleddermann, Herzog & Parlitz, Chaos 35, 053147 (2025), Sec. II D,
 Table II and Fig. 3:
