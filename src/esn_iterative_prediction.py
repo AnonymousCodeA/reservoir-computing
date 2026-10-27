@@ -28,7 +28,7 @@ not the paper's grid search + Nelder-Mead, so values are below Fig. 4.
 import numpy as np
 import time
 
-print("Level 3 ESN Pipeline: iterative prediction and valid time (Fig. 4 comparison)")
+print("ESN: iterative prediction and valid time (Fig. 4 comparison)")
 
 # ------------------------------------------------------------------
 # 1. Hyperparameters (Table II)
@@ -197,7 +197,7 @@ for (knowledge, memory), hp in cases.items():
 # 5. Results
 # ------------------------------------------------------------------
 print("--------------------------------------------------")
-print("LEVEL 3 RESULTS SUMMARY (iterative prediction, E(t) on u^(y)):")
+print("RESULTS SUMMARY (iterative prediction, E(t) on u^(y)):")
 print(f"M = {M} reservoirs x K = {K} trajectories, N = {N}, Δt = {Δt}")
 print(f"{'':16s}{'with memory':>18s}{'no memory':>18s}")
 for knowledge in ("full", "partial"):
