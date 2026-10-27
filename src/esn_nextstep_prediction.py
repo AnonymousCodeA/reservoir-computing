@@ -23,7 +23,7 @@ is built and trained correctly. E of Eq. (3) is applied to one-step predictions.
 import numpy as np
 import time
 
-print("Level 2 ESN Pipeline: one-step-ahead prediction, Lorenz-63, full state")
+print("ESN: one-step-ahead prediction, Lorenz-63, full state")
 
 # ------------------------------------------------------------------
 # 1. Hyperparameters 
@@ -171,7 +171,7 @@ for r in range(M):
 # 5. Results
 # ------------------------------------------------------------------
 print("--------------------------------------------------")
-print("LEVEL 2 RESULTS SUMMARY (one-step-ahead, full state):")
+print("RESULTS SUMMARY (one-step-ahead, full state):")
 print(f"M = {M} reservoirs, K = {K} evaluation trajectories, Δt = {Δt}")
 print(f"u^(x) MSE: {mse_dims[:, 0].mean():.3e}")
 print(f"u^(y) MSE: {mse_dims[:, 1].mean():.3e}")
