@@ -22,7 +22,7 @@ Two tests are run on the held-out part of the signal:
 """
 import numpy as np
 
-print("Level 1 ESN Pipeline: sine wave, one-step-ahead and iterative prediction")
+print("ESN: sine wave, one-step-ahead and iterative prediction")
 
 # ------------------------------------------------------------------
 # 1. Hyperparameters
@@ -131,7 +131,7 @@ t_valid  = n_valid * Δt
 # 7. Results
 # ------------------------------------------------------------------
 print("--------------------------------------------------")
-print("LEVEL 1 RESULTS SUMMARY (sine wave):")
+print(" RESULTS SUMMARY (sine wave):")
 print(f"N = {N}, Δt = {Δt}, n_T = {n_T}, n_test = {n_test}")
 print(f"max |eig(ρ W)|            : {ρ * np.max(np.abs(np.linalg.eigvals(W))):.4f}")
 print(f"Train MSE (one-step)      : {mse_train:.3e}")
